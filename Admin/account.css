@@ -1,0 +1,315 @@
+body
+{
+    height: auto;
+    width: 1920px;
+    position: relative;
+    top: -8px;
+    left: -8px;
+    background-color: #cccccc;
+}
+header
+{
+    height: 220px;
+    width: 100%;
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+}
+.title
+{
+    padding: 1px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #252525;
+}
+ul
+{
+    list-style-type: none;
+}
+nav ul
+{
+    position: relative;
+    top: 125px;
+    left: -80px;
+    width: auto;
+    background: none;
+    height: auto;
+    display: flex;
+    padding-top: 0;
+}
+nav ul li a
+{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+    font-size: 25px;
+    
+}
+section
+{
+    position: relative;
+    top: -25px;
+    height: 1400px;
+    width: 100%;
+}
+.registration_shape_1
+{
+    height: 500px;
+    position: relative;
+    background-image: url(registration_shape_1.png);
+    display: fixed;
+}
+.head
+{
+    position: relative;
+    left: 1290px;
+    top: 90PX;
+    font-size: 70px;
+    text-align: left;
+    color: #c8b886;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box_1
+{
+    background-image: url(box_1.png);
+    height: 1500px;
+    width: 1300px;
+    position: relative;
+    left: 380px;
+    top: -120px;
+    
+}
+.title1
+{
+    position: relative;
+    color: #c8b886;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    left: 120px;
+    top: 75px;
+}
+
+.input-group1
+{
+    position: relative;
+    top: 100px;
+    height: 75px;
+    left: 121px;
+}
+.input-group2
+{
+    position: relative;
+    top: 24px;
+    height: 75px;
+    left: 625px;
+}
+.input-group3
+{
+    position: relative;
+    top: 61px;
+    height: 75px;
+    left: 121px;
+}
+.input-group4
+{
+    position: relative;
+    top: 77px;
+    height: 75px;
+    left: 121px;
+}
+.input-group5
+{
+    position: relative;
+    top: 91px;
+    height: 75px;
+    left: 121px;
+}
+.input-group6
+{
+    position: relative;
+    top: 16px;
+    height: 75px;
+    left: 625px;
+}
+.input-group7
+{
+    position: relative;
+    top: 50px;
+    height: 75px;
+    left: 121px;
+}
+.input-group8
+{
+    position: relative;
+    top: -24px;
+    height: 75px;
+    left:625px;
+}
+.input-group9
+{
+    
+    position: relative;
+    top: 2px;
+    height: 75px;
+    left: 80px;
+}
+.form-control
+{
+    font-size: 20px;
+    color: #c8b886;
+    border: 0;
+    background-color: #454545;
+    height: 40px;
+    width: 443px;
+}
+.form-control1
+{
+    font-size: 20px;
+    color: #c8b886;
+    border: 0;
+    background-color: #454545;
+    height: 40px;
+    width: 945px;
+}
+button
+{
+    position: relative;
+    top: 6px;
+    left: 37px;
+    height: 45px;
+    width: 120px;
+    background-color: #c8b886;
+    border: 0;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px #454545 inset; 
+    -webkit-text-fill-color: #c9c9c9;
+}
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c8b886;
+    display: block;
+}
+.p
+{
+    position: relative;
+    left: 120px;
+}
+
+
+
+.login_shape
+{
+    height: 500px;
+    position: relative;
+    background-image: url(login_shape.png);
+    display: fixed;
+}
+.head1
+{
+    position: relative;
+    left: 1550px;
+    top: 90PX;
+    font-size: 70px;
+    text-align: left;
+    color: #c8b886;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login_shape_1
+{
+    position: relative;
+    background-image: url(login_shape_1.png);
+    height: 900px;
+    width: 900px;
+    top: 70px;
+    left: 30px;
+}
+.box_2
+{
+    background-image: url(box_2.png);
+    height: 600px;
+    width: 700px;
+    position: relative;
+    top: -820px;
+    left: 1115px;
+}
+.input-group10
+{
+    
+    position: relative;
+    top: 112px;
+    height: 20px;
+    left: 148px;
+    
+}
+.input-group11
+{
+    
+    position: relative;
+    top: 197px;
+    height: 55px;
+    left: 148px;
+}
+.form-control1
+{
+    font-size: 20px;
+    color: #c8b886;
+    border: 0;
+    background-color: #454545;
+    height: 40px;
+    width: 467px;
+}
+.button1
+{
+    position: relative;
+    top: 240px;
+    left: 148px;
+    height: 45px;
+    width: 120px;
+    background-color: #c8b886;
+    border: 0;
+}
+.title2
+{
+    position: relative;
+    color: #c8b886;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    left: 142px;
+    top: 110px;
+}
+.p2
+{
+    position: relative;
+    left: 148px;
+    top: 241px;
+}
+
+footer
+{
+    background-color: #454544;
+    height: 140px;
+    position: relative;
+    
+    
+}
+.address
+{
+    font-size: 60px;
+    color: #ceb669; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 30px;
+    left: 60px;
+}
+footer ul li a
+{
+    position: relative;
+    top: -105px;
+    left: 1600px;
+    color: #ceb669;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}

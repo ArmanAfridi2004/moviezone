@@ -1,0 +1,64 @@
+<?php include('server.php') ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Zone</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body>
+    <header>
+        <div class="title"><h1> MOVIE ZONE</h1></div>
+            <nav>
+                <ul class="navbar">
+                    <li><a style = "text-decoration: none" href="index.html"> HOME</a></li><br>
+                    <li><a style = "text-decoration: none" href="#">&emsp; &emsp14; MOVIES</a></li><br>
+                    <li><a style = "text-decoration: none" href="login.html">&emsp; &emsp14; ACCOUNT</a></li><br>
+                    <li><a style = "text-decoration: none" href="admin_login.html">&emsp; &emsp14; ADMIN PAGE</a></li><br>
+            </nav>
+                </ul>
+    </header>
+    <section>
+    <div class="login_shape">
+            <h1 class="head1">LOGIN</h1>
+    </div>
+    
+        <div class=  "login_shape_1"></div>
+
+        <div class = "box_2">
+            <h1 class="title2">SIGN IN</h1>
+                <form method="post" action="login.php">
+
+                        <?php include('errors.php'); ?>
+
+                        <div class="input-group10">
+                            <label>Username</label><br>
+                            <input class="form-control1" type="text" name="username" >
+                        </div>
+                        <div class="input-group11">
+                            <label>Password</label><br>
+                            <input class="form-control1" type="password" name="password">
+                        </div>
+                        <div class="input-group12">
+                            <button class="button1" type="submit" class="btn" name="login_user">Login</button>
+                        </div>
+                        <p class="p2" style="color: #c8b886 ; font-family: Arial, Helvetica, sans-serif;">
+                            Not yet a member? <a style="color: #c8b886 ; font-family: Arial, Helvetica, sans-serif;" href="register.html">Sign up</a>
+                        </p>
+                    </form>
+        </div>
+    
+</section>    
+</body>
+<footer>
+        <div class="footer-container">
+                <p class="address">MOVIE ZONE</p>
+                <ul class="footer-links">
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>  
+        </div>
+    </footer>
+</html>
